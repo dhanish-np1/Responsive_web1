@@ -1,0 +1,70 @@
+@font-face {
+    font-family: navfont;
+    src: url(fonts/CircularSpotifyText-Bold.otf);
+}
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+    
+.navbar{
+        background-color: black;
+        height:81px ;
+    }
+    .imglogo{
+        height: 40px;
+        width: 150px;
+    }
+    .navitems{
+        display: flex;
+        color: white;
+        padding: 28px 17px;
+        font-family: navfont;
+        font-size: 16px;
+        gap: 25px;
+        margin-top: 25px;
+        
+        
+        
+    }
+    
+    
+
+
+
+@media (max-width:990px) {
+    .navbar{
+        height: 55px;
+    }
+    .navbar-collapse{
+        background-color: black;
+        height: 1cm;
+        float: right;
+        width: 5cm;
+    }
+    .imglogo{
+        height: 25px;
+        width: 80px;
+    }
+    .navitems{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .collapse{
+        background-color:black;
+        margin-top: .5rem;
+    
+        
+    }
+   
+}
+
+
+
+
+
+
+

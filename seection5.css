@@ -1,0 +1,39 @@
+@font-face {
+    font-family: navfont;
+    src: url(fonts/CircularSpotifyText-Bold.otf);
+}
+.section5{
+    padding-top: 4cm;
+    padding-bottom: 4cm;
+    width: 100%;
+    background: url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    background-position: left -10px bottom -160px;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sec5head{
+    color: white;
+    font-family: navfont;
+    font-size: 80px;
+
+}
+.btnsec5{
+    height: 1.2cm;
+    border-radius: 500px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: navfont;
+    width: 5cm;
+}
+@media(max-width:770px) {
+   .sec5head{
+    font-size: 40px;
+
+   }
+
+}

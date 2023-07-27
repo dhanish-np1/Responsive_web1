@@ -1,0 +1,101 @@
+@font-face {
+    font-family: navfont;
+    src: url(fonts/CircularSpotifyText-Bold.otf);
+}
+.footer{
+    padding-top: 2cm;
+    height:100%;
+    width: 100%;
+    background-color: black;
+
+}
+.footcon{
+    height: 100%;
+    display: flex;
+    gap: 2cm;
+    flex-wrap: wrap;
+}
+.foothref{
+    display: flex;
+    height:34px ;
+    width:24px ;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+.footimg{
+border-radius: 500px;
+}
+.footlist{
+    font-family: navfont;
+    font-size: 16px;
+    line-height: 2;
+    color: white;
+    list-style: none;
+}
+.conlast{
+    height: 100%;
+    display: flex;
+
+}
+.copy{
+    font-family: navfont;
+    font-size: 14px;
+    color: gray;
+    display: flex;
+    list-style: none;
+    gap: 1cm;
+    flex-wrap: wrap;
+
+}
+.copy2{
+    font-family: navfont;
+    font-size: 14px;
+    color: gray;
+    justify-self: end;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(max-width:990px) {
+
+}
+@media(max-width:990px) {
+    .footcon{
+        flex-direction: column;
+    }
+}
+@media (max-width:445px) {
+    .conlast{
+        flex-direction: column;
+    
+    }
+    .copy{
+        flex-direction: column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#scroll-up-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 20px;
+    cursor: pointer;
+  }

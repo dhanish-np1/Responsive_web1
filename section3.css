@@ -1,0 +1,24 @@
+@font-face {
+    font-family: navfont;
+    src: url(fonts/CircularSpotifyText-Bold.otf);
+}
+.section3{
+    padding-top: 4cm;
+    padding-bottom:4cm ;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));
+    font-size: 1.2em;
+    font-family: navfont;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+@media(max-width:410px) {
+    .section3{
+        text-align: center;
+
+    }
+ 
+ }

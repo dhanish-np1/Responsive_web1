@@ -1,0 +1,43 @@
+@font-face {
+    font-family: navfont;
+    src: url(fonts/CircularSpotifyText-Bold.otf);
+}
+.section2{
+    height: 100%;
+    width: 100%;
+   
+
+}
+.con2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+
+.imgclass{
+    padding-top: 2cm;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 2cm;
+   
+}
+.imgsec2{
+    width: 142px;
+    height: 142px;
+}
+.item1{
+    width: 6cm;
+    text-align: center;
+
+}
+.para{
+    font-size: 21px;
+}
+.para2{
+    font-size: 15px;
+}
